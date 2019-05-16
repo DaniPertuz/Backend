@@ -8,7 +8,6 @@ var app = express()
 var Server = http.createServer(app)
 
 app.use('/', Routing)
-//var Server = http.createServer(Routing)
 Server.listen(PORT, function(){
   console.log('Servidor escuhando puerto ' + PORT)
 })
